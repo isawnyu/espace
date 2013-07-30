@@ -14,7 +14,6 @@
 }
 
 .isaw-hcontent > .span4 {
-	width: 32.66%;
 	margin-left: 1%;
 	margin-bottom: 1%;
 }
@@ -33,7 +32,24 @@
 	margin-right: 2%;
 }
 
+#exhibmeta {
+	padding-right: 2%;
+}
 
+#exhibmeta p {
+	text-align: justify;
+}
+
+#exhibmeta p.lead {
+	text-align: left;
+}
+
+h3 {
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	font-style: italic;
+	font-size: 120%;
+}
 
 
 
