@@ -4,6 +4,9 @@
    Author's custom styles
    ========================================================================== */
 
+.navbar-inner ul.nav {
+	margin-right: 0px;
+}
 .row-fluid [class*="span"] {
 	margin: 0px;
 }
