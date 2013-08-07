@@ -39,12 +39,33 @@
 	padding-right: 2%;
 }
 
-#exhibmeta p {
+.row-fluid p {
 	text-align: justify;
 }
 
-#exhibmeta p.lead {
+.row-fluid p.lead {
 	text-align: left;
+}
+
+p.caption {
+	font-size: 90%;
+}
+
+p.caption-right {
+	float: right;
+	text-align: right;
+}
+
+#isawmap {
+	float: left;
+	padding-left: 2em;
+}
+
+#isawmap > iframe {
+	min-width: 400px;
+	min-height: 500px;
+	width: 100%;
+	height: auto;
 }
 
 h3 {
@@ -54,6 +75,25 @@ h3 {
 	font-size: 120%;
 }
 
+footer {
+    clear: both;
+    font-size: 0.9em;
+    height: 5.5em;
+    margin-bottom: 30px;
+}
 
+#left-footer {
+	float: left;
+	width: 40%;
+}
 
+#right-footer {
+	float: right;
+	text-align: right;
+	width: 40%;
+}
 
+#logo-footer {
+    float: left;
+    margin-right: 0.75em;
+}
