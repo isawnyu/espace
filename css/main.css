@@ -154,6 +154,7 @@ footer p {
 		padding-right: 1em;
 	}
 	.callout {
+		border: none;
 		float: none !important;
 		width: auto;
 		height: auto;
