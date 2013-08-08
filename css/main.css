@@ -7,6 +7,10 @@
 .navbar-inner ul.nav {
 	margin-right: 0px;
 }
+
+.row-fluid {
+	min-width: 320px;
+}
 .row-fluid [class*="span"] {
 	margin: 0px;
 }
@@ -135,14 +139,39 @@ footer p {
 }
 
 .callout {
-	border: 1px solid black;
+	border: 1px solid #777;
 	padding: 2em;
 	width: 2.75in;
 	height: 1.57in;
 }
 
+.callout-padded-right {
+	padding-right: 3.6in;
+}
+
+@media all and (max-width: 600px) {
+	.callout-padded-right {
+		padding-right: 1em;
+	}
+	.callout {
+		float: none !important;
+		width: auto;
+		height: auto;
+		padding: .5em;
+	}
+	.callout p {
+		margin: .2em;
+	}
+}
+
+
+.callout-padded-right p {
+	text-align: justify;
+}
+
 .cols-2 {
 	column-count: 2;
 	column-width: 2em;
--moz-column-count:2; /* Firefox */
--webkit-column-count:2; /* Safari and Chrome */}
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+}
