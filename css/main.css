@@ -21,11 +21,11 @@
 	margin-bottom: 1%;
 }
 
-.thumbnail {
+a > .thumbnail {
 	box-shadow: 2px 2px 1px #DDD;
 }
 
-.thumbnail:hover {
+a > .thumbnail:hover {
 	border: 1px solid #AAA;
 	box-shadow: 3px 3px 2px #777;
 }
@@ -40,7 +40,8 @@
 }
 
 .row-fluid p {
-	text-align: justify;
+	text-align: left;
+	margin-bottom: 15px;
 }
 
 .row-fluid p.lead {
@@ -57,12 +58,12 @@ p.caption-right {
 }
 
 #isawmap {
-	float: left;
 	padding-left: 2em;
+	padding-right: 2em;
 }
 
 #isawmap > iframe {
-	min-width: 400px;
+	min-width: 200px;
 	min-height: 500px;
 	width: 100%;
 	height: auto;
@@ -82,6 +83,10 @@ footer {
     margin-bottom: 30px;
 }
 
+footer p {
+	line-height: 1.2em;
+}
+
 #left-footer {
 	float: left;
 	width: 40%;
@@ -97,3 +102,47 @@ footer {
     float: left;
     margin-right: 0.75em;
 }
+
+.media {
+	padding-bottom: 3px;
+}
+
+.media-object {
+	margin-right: 1.5em;
+	max-width: 150px;
+}
+
+.navbar .nav > li > a {
+	color: black;
+}
+
+.navbar .nav > li > a:hover {
+	background-color: white;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
+.justify p, .justify {
+	text-align: justify;
+}
+
+.subway-line {
+	color: green;
+	font-size: 140%;
+}
+
+.subway-line:hover {
+	text-decoration: none;
+}
+
+.callout {
+	border: 1px solid black;
+	padding: 2em;
+	width: 2.75in;
+	height: 1.57in;
+}
+
+.cols-2 {
+	column-count: 2;
+	column-width: 2em;
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */}
