@@ -159,6 +159,7 @@ footer p {
 		width: auto;
 		height: auto;
 		padding: .5em;
+		padding-left: 0em;
 	}
 	.callout p {
 		margin: .2em;
