@@ -228,6 +228,7 @@ footer p {
 	font-style: italic;
 }
 
+
 a[href^='glossary.html'] {
 	border-bottom: 1px dashed;
 	cursor: help;
@@ -251,7 +252,10 @@ a[href^='glossary.html']:hover:after {
     font-size: 15px;
     font-family: Arial;
     font-style: normal;
+}
 
+a[href^='glossary.html'][title]:hover:after {
+	content: attr(title) " (click for more information)";
 }
 
 .row-fluid a[href^='http']:before {
