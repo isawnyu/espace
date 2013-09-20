@@ -93,7 +93,6 @@ h3 {
 	margin-bottom: 0;
 	padding-bottom: 0;
 	font-style: italic;
-	font-size: 120%;
 }
 
 p, li, dt, dd {
@@ -155,6 +154,10 @@ footer p {
 	font-size: 140%;
 }
 
+.subway-line:before {
+	content: none !important;
+}
+
 .subway-line:hover {
 	text-decoration: none;
 }
@@ -210,3 +213,74 @@ footer p {
 	margin-right: 0.5em;
 	vertical-align: top;
 }
+
+.title {
+	font-style: italic;
+}
+.more {
+	cursor: pointer;
+}
+.more:after {
+	content:" →";
+}
+
+[lang|="grc"] {
+	font-style: italic;
+}
+
+a[href^='glossary.html'] {
+	border-bottom: 1px dashed;
+	cursor: help;
+	display: inline;
+	position: relative;
+}
+
+a[href^='glossary.html']:hover:after {
+	content: "click for glossary entry";
+	padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    left: 20%;
+    min-width: 160px;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial;
+    font-style: normal;
+
+}
+
+.row-fluid a[href^='http']:before {
+	content: "➚";
+	white-space: nowrap;
+	padding-right: .2em;
+}
+
+a[href][title] {
+	display: inline;
+	position: relative;
+}
+
+a:not([href^="glossary.html"])[href][title]:hover:after {
+	content: attr(title);
+	padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    left: 20%;
+    min-width: 160px;
+    text-align: left;
+    font-size: 15px;
+    font-family: Arial;
+    font-style: normal;
+}
+
+
