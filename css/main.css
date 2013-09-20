@@ -283,4 +283,12 @@ a:not([href^="glossary.html"])[href][title]:hover:after {
     font-style: normal;
 }
 
+.permalink {
+	font-size: small;
+}
 
+.elabel {
+	list-style: none outside;
+	margin: 0;
+	padding: 0;
+}
