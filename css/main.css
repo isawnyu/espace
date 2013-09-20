@@ -264,7 +264,7 @@ a[href^='glossary.html'][title]:hover:after {
 	padding-right: .2em;
 }
 
-.row-fluid a[href^='http://pleiades.stoa.org']:before {
+.row-fluid a[href^='http://pleiades.stoa.org']:before, .row-fluid a.place:before {
 	content: "🌍";
 	white-space: nowrap;
 	padding-right: .2em;
