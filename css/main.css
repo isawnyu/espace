@@ -260,6 +260,12 @@ a[href^='glossary.html']:hover:after {
 	padding-right: .2em;
 }
 
+.row-fluid a[href^='http://pleiades.stoa.org']:before {
+	content: "🌍";
+	white-space: nowrap;
+	padding-right: .2em;
+}
+
 a[href][title] {
 	display: inline;
 	position: relative;
