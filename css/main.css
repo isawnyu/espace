@@ -3,6 +3,9 @@
    Author's custom styles
    ========================================================================== */
 
+@import url("http://fonts.googleapis.com/css?family=Arapey:400,400italic");
+
+
 body {
 	background-color: #F1ECE7;
 }
