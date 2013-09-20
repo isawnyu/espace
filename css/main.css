@@ -234,8 +234,13 @@ a[href^='glossary.html'] {
 	cursor: help;
 	display: inline;
 	position: relative;
+	color: black;
 }
 
+a[href^='glossary.html']:hover {
+	border-bottom: 1px solid;
+	text-decoration: none;
+}
 a[href^='glossary.html']:hover:after {
 	content: "click for glossary entry";
 	padding: 5px 15px;
