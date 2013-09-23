@@ -43,7 +43,8 @@ footer {
     margin-right: 0.75em;
 }
 #map {
-	height: 400px;
+	height: 600px;
+	min-width: 280px;
 }
 #right-footer {
 	float: right;
@@ -71,6 +72,9 @@ footer {
 .isaw-hcontent > .span4 {
 	margin-left: 1%;
 	margin-bottom: 1%;
+}
+.leftgap {
+	padding-left: 20px;
 }
 .media {
 	padding-bottom: 3px;
@@ -164,10 +168,15 @@ a[href^='glossary.html'][title]:hover:after {
 	white-space: nowrap;
 	padding-right: .2em;
 }
-.row-fluid a[href^='http://pleiades.stoa.org']:before, .row-fluid a.place:before {
+.row-fluid a[href^='http://pleiades.stoa.org/places']:before, .row-fluid a.place:before {
 	content: "🌍";
 	white-space: nowrap;
 	padding-right: .2em;
+}
+
+#map a[href^='http://pleiades.stoa.org/places']:before {
+	content: "" !important;
+	padding-right: 0 !important;
 }
 a:not([href^="glossary.html"])[href][title]:hover:after {
 	content: attr(title);
@@ -255,6 +264,19 @@ footer p {
 	list-style: none outside;
 	margin: 0;
 	padding: 0;
+}
+#map .title {
+	font-style: normal !important;
+	font-size: larger !important;
+}
+#map p {
+	margin: 0;
+	padding: 0;
+}
+#map p.byline {
+	font-size: smaller;
+	line-height: 10px;
+	font-style: italic;
 }
 
 
