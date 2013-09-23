@@ -167,18 +167,20 @@ a[href^='glossary.html'][title]:hover:after {
 	content: attr(title) " (click for more information)";
 }
 /* decorate external and "place" links with thematic candy */
+/* too much candy will give you a toothache
 .row-fluid a[href^='http']:before {
 	content: "➚";
 	white-space: nowrap;
 	padding-right: .2em;
 }
+*/
 .row-fluid a[href^='http://pleiades.stoa.org/places']:before, .row-fluid a.place:before {
 	content: "🌍";
 	white-space: nowrap;
 	padding-right: .2em;
 }
 /* suppress preceding link candy in certain cases */
-#map a[href^='http://pleiades.stoa.org/places']:before, .caption a[href^='http:']:before {
+#map a[href^='http:']:before, .caption a[href^='http:']:before {
 	content: "" !important;
 	padding-right: 0 !important;
 }
