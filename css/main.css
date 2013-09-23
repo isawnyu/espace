@@ -43,8 +43,10 @@ footer {
     margin-right: 0.75em;
 }
 #map {
-	height: 600px;
+	min-height: 600px;
 	min-width: 280px;
+	width: 90%;
+	max-height: 100%;
 }
 #right-footer {
 	float: right;
