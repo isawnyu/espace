@@ -76,6 +76,9 @@ footer {
 .leftgap {
 	padding-left: 20px;
 }
+.rightgap {
+	padding-right: 20px;
+}
 .media {
 	padding-bottom: 3px;
 }
@@ -163,6 +166,7 @@ a[href^='glossary.html']:hover:after {
 a[href^='glossary.html'][title]:hover:after {
 	content: attr(title) " (click for more information)";
 }
+/* decorate external and "place" links with thematic candy */
 .row-fluid a[href^='http']:before {
 	content: "➚";
 	white-space: nowrap;
@@ -173,8 +177,8 @@ a[href^='glossary.html'][title]:hover:after {
 	white-space: nowrap;
 	padding-right: .2em;
 }
-
-#map a[href^='http://pleiades.stoa.org/places']:before {
+/* suppress preceding link candy in certain cases */
+#map a[href^='http://pleiades.stoa.org/places']:before, .caption a[href^='http:']:before {
 	content: "" !important;
 	padding-right: 0 !important;
 }
@@ -213,6 +217,7 @@ p, li, dt, dd {
 }
 p.caption {
 	font-size: 90%;
+	line-height: 1.2em;
 }
 p.caption-right {
 	float: right;
