@@ -116,7 +116,10 @@ footer {
 .row-fluid [class*="span"] {
 	margin: 0;
 }
-
+.bibliography > p {
+	padding-left: 2.0em;
+	text-indent: -2.0em;
+}
 
 /* navigation */
 .navbar-inner ul.nav {
