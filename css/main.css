@@ -120,7 +120,13 @@ footer {
 	padding-left: 2.0em;
 	text-indent: -2.0em;
 }
-
+#checklist .media-heading {
+	float: left;
+	margin-right: 0.2em;
+}
+#checklist .media-body .elabel {
+	clear: both;
+}
 /* navigation */
 .navbar-inner ul.nav {
 	margin-right: 0;
