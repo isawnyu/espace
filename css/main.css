@@ -44,9 +44,9 @@ footer {
 }
 #map {
 	min-height: 600px;
-	min-width: 280px;
-	width: 90%;
+	min-width: 90%;
 	max-height: 100%;
+	border: 1px solid gray;
 }
 #right-footer {
 	float: right;
