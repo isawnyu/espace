@@ -152,7 +152,7 @@ a[href][title] {
 	display: inline;
 	position: relative;
 }
-a[href^='glossary.html'] {
+a[href^='glossary.html#'] {
 	border-bottom: 1px dashed;
 	cursor: help;
 	display: inline;
