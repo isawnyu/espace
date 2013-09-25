@@ -95,6 +95,11 @@ footer {
 	margin-right: 1.5em;
 	max-width: 150px;
 }
+#checklist .media-object {
+	max-width: 275px;
+	min-width: 125px;
+	min-height: 125px;
+}
 @media all and (max-width: 600px) {
 	.callout-padded-right {
 		padding-right: 1em;
