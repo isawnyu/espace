@@ -100,6 +100,13 @@ footer {
 	min-width: 125px;
 	min-height: 125px;
 }
+#checklist .media-object > p {
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+	font-size: small;
+	color: #AAA;
+}
 @media all and (max-width: 600px) {
 	.callout-padded-right {
 		padding-right: 1em;
