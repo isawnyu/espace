@@ -291,8 +291,11 @@ footer p {
 .more:after {
 	content:" →";
 }
-[lang|="grc"], [lang|="lat"] {
+[lang] {
 	font-style: italic;
+}
+[lang='grc'], [lang='en'] {
+	font-style: normal !important;
 }
 .permalink {
 	font-size: small;
