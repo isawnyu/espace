@@ -204,7 +204,7 @@ a[href^='glossary.html'][title]:hover:after {
 	padding-right: .2em;
 }
 */
-.row-fluid a[href^='http://pleiades.stoa.org/places']:before, .row-fluid a.place:before {
+.row-fluid a[href^='http://pleiades.stoa.org/places']:before, .row-fluid a.place:before, .row-fluid a[href^='http://www.geonames.org/']:before {
 	content: "🌍";
 	white-space: nowrap;
 	padding-right: .2em;
