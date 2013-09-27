@@ -86,11 +86,55 @@ footer {
 	padding-top: 65px;
     margin-top: -50px;		
 }
-.awld .media {
-	padding-top: 0px !important;
-	margin-top: 0px !important;
-	padding-bottom: 0px;
+.awld-pop .arrow {
+	background: #333 !important;
+    background: rgba(0,0,0,.8) !important;
+
 }
+.awld {
+	padding-bottom: 15px !important;
+}
+.awld * {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+/* .awld-content > div > div, .awld-content > div > p {
+	padding: 0.5em !important;
+}
+*/
+.awld-content > div > * {
+	padding-bottom: 0.4em !important;
+}
+.awld-heading {
+	margin-top: 10px !important;
+}
+.awld-content .media {
+	padding-right: 1em !important;
+}
+.awld-content p {
+	font-size: 15px !important;
+	font-family: Arial !important;
+	line-height: 1.1em !important;	
+}
+.awld-content a {
+	color: #0088CC !important;
+	font-size: 15px !important;
+	font-family: Arial !important;
+}
+.awld-pop-inner {
+/*	background: #333 !important;
+    background: rgba(0,0,0,.8) !important; */
+    border-radius: 5px !important;
+    bottom: 26px !important;
+/*    color: #fff !important; */
+	padding: 5px 15px !important;
+	font-family: Arial !important;
+	font-size: 15px !important;
+	line-height: 1.1em !important;
+	min-width: 450px !important;
+	border: none !important;
+}
+
 .media-object {
 	margin-right: 1.5em;
 	max-width: 150px;
