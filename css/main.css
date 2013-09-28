@@ -48,6 +48,43 @@ footer {
 	max-height: 100%;
 	border: 1px solid gray;
 }
+#orbis-images img {
+	min-width: 320px;
+	width: 100%;
+}
+#orbis-main {
+	float: left;
+	margin-top: 4px;
+	margin-right: -6px;
+}
+#orbis-main > img {
+	border: 1px solid gray;
+}
+#orbis-inset {
+	max-width: 399px;
+	box-shadow: 0 0 2px 2px gray;
+	float: left
+}
+#orbis-inset > img:first-child {
+	border: 1px solid gray;
+	border-bottom: none;
+}
+#orbis-inset > img:last-child {
+	border: 1px solid gray;
+}
+#orbis-caption {
+	padding-top: 0.5em;
+	clear: left;
+	width: 90%;
+}
+
+.map img {
+	border: 1px solid gray;
+	float: right;
+	margin-top: 4px;
+}
+.mapouts img {
+}
 #right-footer {
 	float: right;
 	text-align: right;
@@ -129,7 +166,6 @@ footer {
 	min-width: 450px !important;
 	border: none !important;
 }
-
 .media-object {
 	margin-right: 1.5em;
 	max-width: 150px;
@@ -380,8 +416,6 @@ h3 {
 .suppress {
 	display: none;
 }
-
-
 
 
 
