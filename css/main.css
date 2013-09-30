@@ -240,6 +240,7 @@ a[href][title] {
 	display: inline;
 	position: relative;
 }
+/*
 a[href^='glossary.html#'] {
 	border-bottom: 1px dashed;
 	cursor: help;
@@ -271,6 +272,8 @@ a[href^='glossary.html']:hover:after {
 a[href^='glossary.html'][title]:hover:after {
 	content: attr(title) " (click for more information)";
 }
+*/
+
 /* decorate external and "place" links with thematic candy */
 /* too much candy will give you a toothache
 .row-fluid a[href^='http']:before {
@@ -279,6 +282,14 @@ a[href^='glossary.html'][title]:hover:after {
 	padding-right: .2em;
 }
 */
+
+/* temporarily disable glossary links */
+a[href^='glossary.html'] {
+	text-decoration: none;
+	color: black;
+	cursor: text !important;
+	pointer-events: none;
+}
 .row-fluid a[href^='http://pleiades.stoa.org/places']:before, .row-fluid a.place:before, .row-fluid a[href^='http://www.geonames.org/']:before {
 	content: "🌍";
 	white-space: nowrap;
