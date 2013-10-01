@@ -108,9 +108,11 @@ footer {
 	column-count: 2;
 	column-width: 2em;
 }
-.isaw-hcontent > .span4 {
+.isaw-hcontent > div {
 	margin-left: 1%;
 	margin-bottom: 1%;
+	float:left;
+	width: 310px;
 }
 .leftgap {
 	padding-left: 20px;
@@ -235,6 +237,15 @@ a > .thumbnail {
 a > .thumbnail:hover {
 	border: 1px solid #AAA;
 	box-shadow: 3px 3px 2px #777;
+}
+a > .thumbnail {
+	height: 210px;
+	width: 310px;
+}
+a > .thumbnail > img {
+	max-height: 200px;
+	max-width: 300px;
+	padding-top: 5px;
 }
 a[href][title] {
 	display: inline;
@@ -423,6 +434,12 @@ h3 {
 	padding-bottom: 0;
 	font-size: 25px;
 	font-style: italic;
+}
+#exhibcontent h3 {
+	margin-top: 0;
+}
+#exhibcontent #row1a h3 {
+	margin-top: 10px;
 }
 .suppress {
 	display: none;
