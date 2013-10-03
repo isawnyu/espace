@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="file:/Users/paregorios/Documents/files/A/atom-schema/atom11.rnc" type="application/relax-ng-compact-syntax"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>tag:isaw.nyu.edu,2013:/exhibitions/space</id>
+  <title>Updates to the Measuring and Mapping Space Exhibition Website</title>
+  <link href="http://isaw.nyu.edu/exhibitions/space/updates-atom.xml" type="application/atom+xml" rel="self"/>
+  <link href="http://isaw.nyu.edu/exhibitions/space/" type="text/html" rel="alternate"/>
+  
+  <updated>2013-10-03T16:25:00-04:00</updated>
+  <author>
+    <name>Institute for the Study of the Ancient World, New York University</name>
+    <uri>http://isaw.nyu.edu</uri>
+  </author>
+  
+  <entry>
+    <title>Tabula Cebetis</title>
+    <link href="http://isaw.nyu.edu/exhibitions/space/checklist.html#tabceb" type="text/html" rel="alternate"/>
+    <id>tag:isaw.nyu.edu,2013:/exhibitions/space/checklist.html/tabceb</id>
+    <updated>2013-10-03T16:25:00-04:00</updated>
+    <summary>Added thumbnail image of the object. 
+      The Path to Virtue
+      Printed Book, Basel 1597
+      H. 35 cm
+      Lent by the Metropolitan Museum of Art, Harris Brisbane Dick Fund, 1944: 44.1.22
+    </summary>
+    <content type="image/jpg" src="img/checklist-thumbs/MAP_16_ART469181.jpg"/>
+  </entry>
+  
+  <entry>
+    <title>Askos</title>
+    <link href="http://isaw.nyu.edu/exhibitions/space/checklist.html#askos" type="text/html" rel="alternate"/>
+    <id>tag:isaw.nyu.edu,2013:/exhibitions/space/checklist.html/askos</id>
+    <updated>2013-10-03T16:25:00-04:00</updated>
+    <summary>Added thumbnail image of the object. 
+      Terracotta
+      South Italy, third century BCE
+      H. 45 cm, Diam. 41 cm
+      Lent by The Metropolitan Museum of Art, Gift of Mrs. Frederic H. Betts, 1911: 11.43
+    </summary>
+    <content type="image/jpg" src="img/checklist-thumbs/MAP_35_ART469179.jpg"/>
+  </entry>
+  
+  <entry>
+    <title>Bell-Krater</title>
+    <link href="http://isaw.nyu.edu/exhibitions/space/checklist.html#bell-krater" type="text/html" rel="alternate"/>
+    <id>tag:isaw.nyu.edu,2013:/exhibitions/space/checklist.html/bell-krater</id>
+    <updated>2013-10-03T16:25:00-04:00</updated>
+    <summary>Added thumbnail image of the object. 
+      Painter of London E497
+      Terracotta
+      Attica 440 BCE
+      H. 30 cm, Diam. 33 cm
+      Lent by The Metropolitan Museum of Art, Fletcher Fund, 1924: 24.97.30
+    </summary>
+    <content type="image/jpg" src="img/checklist-thumbs/MAP_36_ART348204.jpg"/>
+  </entry>
+
+  <entry>
+    <title>Kylix</title>
+    <link href="http://isaw.nyu.edu/exhibitions/space/checklist.html#kylix" type="text/html" rel="alternate"/>
+    <id>tag:isaw.nyu.edu,2013:/exhibitions/space/checklist.html/kylix</id>
+    <updated>2013-10-03T16:25:00-04:00</updated>
+    <summary>Added thumbnail image of the object. 
+      Brygos Painter
+      Terracotta
+      Attica 480–470 BCE
+      H. 8 cm, Diam. 21 cm
+      Lent by The Metropolitan Museum of Art, Purchase, 1896: 96.9.37
+    </summary>
+    <content type="image/jpg" src="img/checklist-thumbs/MAP_37_ART469182.jpg"/>
+  </entry>
+  
+  <entry>
+    <title>Pelike</title>
+    <link href="http://isaw.nyu.edu/exhibitions/space/checklist.html#pelike-met-1" type="text/html" rel="alternate"/>
+    <id>tag:isaw.nyu.edu,2013:/exhibitions/space/checklist.html/pelike-met-1</id>
+    <updated>2013-10-03T16:25:00-04:00</updated>
+    <summary>Added thumbnail image of the object. 
+      Group G
+      Terracotta
+      Attica 350–325 BCE
+      H. 23 cm
+      Lent by The Metropolitan Museum of Art, Museum Accession: X.21.21
+    </summary>
+    <content type="image/jpg" src="img/checklist-thumbs/MAP_38_ART469187.jpg"/>
+  </entry>
+
+  <entry>
+    <title>Pelike</title>
+    <link href="http://isaw.nyu.edu/exhibitions/space/checklist.html#pelike-met-2" type="text/html" rel="alternate"/>
+    <id>tag:isaw.nyu.edu,2013:/exhibitions/space/checklist.html/pelike-met-2</id>
+    <updated>2013-10-03T16:25:00-04:00</updated>
+    <summary>Added thumbnail image of the object. 
+      Painter of Munich
+      Terracotta
+      Attica 375–350 BCE
+      H. 28 cm
+      Lent by The Metropolitan Museum of Art, Rogers Fund, 1906: 06.1021.179
+    </summary>
+    <content type="image/jpg" src="img/checklist-thumbs/MAP_39_ART469177.jpg"/>
+  </entry>
+  
+  <entry>
+    <title>Situla</title>
+    <link href="http://isaw.nyu.edu/exhibitions/space/checklist.html#situla" type="text/html" rel="alternate"/>
+    <id>tag:isaw.nyu.edu,2013:/exhibitions/space/checklist.html/situla</id>
+    <updated>2013-10-03T16:25:00-04:00</updated>
+    <summary>Added thumbnail image of the object.       
+      Lycurgus Painter
+      Terracotta
+      South Italy 360–340 BCE
+      H. 27 cm
+      Lent by The Metropolitan Museum of Art, Fletcher Fund, 1956: 56.171.64      
+    </summary>
+    <content type="image/jpg" src="img/checklist-thumbs/MAP_40_ART469184.jpg"/>
+  </entry>
+  
+</feed>
