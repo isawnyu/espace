@@ -6,12 +6,37 @@
   <link href="http://isaw.nyu.edu/exhibitions/space/updates-atom.xml" type="application/atom+xml" rel="self"/>
   <link href="http://isaw.nyu.edu/exhibitions/space/" type="text/html" rel="alternate"/>
   
-  <updated>2013-10-16T18:40:00-04:00</updated>
+  <updated>2013-10-30T15:13:00-04:00</updated>
   <author>
     <name>Institute for the Study of the Ancient World, New York University</name>
     <uri>http://isaw.nyu.edu</uri>
   </author>
   
+  <entry>
+    <title>New Press Entries: The Atlantic (article), The Leonard Lopate Show (video), and The Wall Street Journal (article)</title>
+    <link href="http://isaw.nyu.edu/exhibitions/space/press.html" type="text/html" rel="alternate"/>
+    <id>tag:isaw.nyu.edu,2013:/exhibitions/space/press.html</id>
+    <updated>2013-10-30T15:10:00-04:00</updated>
+    <summary>
+      Kaylan, M. "A World Without Maps". The Wall Street Journal. Arts &amp; Entertainment. October 29, 2013.
+      
+      "Measuring and Mapping Space" (article and podcast). The Leonard Lopate Show. WNYC. October 16, 2013.
+      
+      Jaffe, E. "What Ancient Geography Has in Common With Google Maps." The Atlantic. Arts &amp; Lifestyle. October 10, 2013.
+    </summary>
+  </entry>
+  <entry>
+    <title>Lecture Date Changed: Roberta Casagrande-Kim now on November 14, 2013</title>
+    <link href="http://isaw.nyu.edu/exhibitions/space/events.html#casagrande" type="text/html" rel="alternate"/>
+    <id>tag:isaw.nyu.edu,2013:/exhibitions/space/events.html/casagrande</id>
+    <updated>2013-10-24T12:27:00-04:00</updated>
+    <summary>
+      Date changed: November 14, 6pm
+      
+      To Hell and Back: Travels and Geographies of Roman Hades
+      Roberta Casagrande-Kim, Curator
+    </summary>
+  </entry>
   <entry>
     <title>New Lecture Added: Roberta Casagrande-Kim on November 21, 2013</title>
     <link href="http://isaw.nyu.edu/exhibitions/space/events.html#casagrande" type="text/html" rel="alternate"/>
